@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>Butterbell Bakery</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-secondary-fixed-variant":"#693b1d","surface-container-lowest":"#ffffff","on-secondary-fixed":"#321300","surface-bright":"#fff8f5","error-container":"#ffdad6","surface-container":"#ffeadf","on-primary":"#ffffff","on-surface-variant":"#51443c","surface":"#fff8f5","tertiary-fixed-dim":"#d0c6af","inverse-surface":"#3b2d26","primary-container":"#8b5e3c","on-surface":"#251912","on-tertiary":"#ffffff","on-primary-container":"#ffe3d1","primary":"#6f4627","background":"#fff8f5","outline-variant":"#d5c3b8","primary-fixed":"#ffdcc5","surface-tint":"#805533","on-tertiary-fixed":"#201b0d","outline":"#83746b","primary-fixed-dim":"#f4bb92","error":"#ba1a1a","on-error-container":"#93000a","secondary":"#845232","surface-container-highest":"#f5ded2","surface-dim":"#edd5ca","on-secondary-container":"#794929","on-tertiary-container":"#f2e8d0","on-primary-fixed-variant":"#653d1e","surface-container-high":"#fbe4d7","inverse-on-surface":"#ffede5","inverse-primary":"#f4bb92","tertiary":"#56503e","on-error":"#ffffff","secondary-fixed-dim":"#fab890","secondary-fixed":"#ffdbc8","surface-variant":"#f5ded2","on-secondary":"#ffffff","on-background":"#251912","tertiary-container":"#6f6855","on-primary-fixed":"#301400","tertiary-fixed":"#ece2ca","secondary-container":"#fdbb93","surface-container-low":"#fff1ea","on-tertiary-fixed-variant":"#4d4635"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1.25rem","space-xs":"0.25rem","gutter-mobile":"1rem","space-xl":"2.5rem","space-lg":"1.5rem","gutter":"1.5rem","margin":"3rem","space-md":"1rem","space-sm":"0.5rem"},"fontFamily":{"headline-xl":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"headline-md":["Playfair Display"],"headline-xl-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"]},"fontSize":{"headline-xl":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.015em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"500"}],"headline-xl-mobile":["34px",{"lineHeight":"42px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-lg":["15px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(62,48,40,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><a class="flex items-center gap-space-sm group" data-path="home" href="#"><div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors"><span class="material-symbols-outlined text-[22px]">bakery_dining</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-tight text-primary leading-none">BUTTERBELL</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">Artisanal Bakery</span></div></a><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-surface-container text-primary font-label-lg rounded-lg"><a aria-current="page" class="px-3 py-2 transition-colors bg-surface-container text-primary font-label-lg rounded-lg" data-path="home" href="#">Home</a><a class="px-3 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="about-us" href="#">About Us</a><a class="px-3 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="menu" href="#">Menu</a><a class="px-3 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="our-team" href="#">Our Team</a><a class="px-3 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="reviews" href="#">Reviews</a><a class="px-3 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center h-12 px-space-lg rounded-lg bg-primary-container text-on-primary font-label-md text-label-md shadow-[0_4px_16px_rgba(62,48,40,0.08)] hover:bg-primary transition-all duration-200" data-path="menu" href="#">Explore Menu</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION: Bleeds seamlessly under top header with asymmetric editorial balance -->
+<section class="relative w-full -mt-20 pt-28 pb-20 lg:pt-36 lg:pb-28 overflow-hidden bg-surface-container-low">
+<!-- Atmospheric warm glow -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-secondary-container/40 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 right-0 w-[30rem] h-[30rem] rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left: Text Editorial Column -->
+<div class="lg:col-span-7 flex flex-col items-start pr-0 lg:pr-8">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider mb-6 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>Oven Fresh Every Dawn • 6:30 AM</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight mb-4 leading-none">
+            Baked with Love, Made for Your Little Moments.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-8 leading-relaxed">
+            Freshly baked breads, delicate pastries, delightful cookies, and beautiful desserts made to make every moment a little sweeter. Slow-fermented with heirloom grains and golden cultured butter.
+          </p>
+<div class="flex flex-wrap items-center gap-4 w-full sm:w-auto">
+<a class="h-12 px-space-lg rounded-lg bg-primary-container text-on-primary font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all duration-200" data-path="menu" href="#">
+<span>Explore Our Menu</span>
+<span class="material-symbols-outlined text-[18px]">east</span>
+</a>
+<a class="h-12 px-space-lg rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-sm hover:bg-surface-container transition-all duration-200" data-path="about-us" href="#">
+<span class="material-symbols-outlined text-[18px]">auto_stories</span>
+<span>Discover Our Story</span>
+</a>
+</div>
+<!-- Micro Badge Bar -->
+<div class="grid grid-cols-3 gap-6 pt-10 mt-10 w-full max-w-lg">
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Cultured Butter</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">36h</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Slow Fermentation</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">4.9★</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Neighbourhood Love</span>
+</div>
+</div>
+</div>
+<!-- Right: Layered Visual Composition -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Artisanal golden brown flaky croissants and freshly baked sourdough batard displayed on warm limestone counter dusted with fine flour. Soft morning sunlight streaming through bakery window casting long gentle shadows with warm amber, honey, and terracotta hues, fine dining editorial food photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARVFIFqsRm2QttLI53UuuVqahlm_6Wxv2QyY82_ExWWgE03JclrgIz-Z-tii2SfwMS9eBGjK2aQ8sQN63GuABZrt6A-YVd4ux--2A_N5gyKFDoTMqiAgSFBsdOIhZoOwQJYgXxxeD_Vx0aRipVYmKxKU-ZrNd26uPky6qjSRDPKbJlSbMpAMIkdj3dUMcecdyJrzf_45jrBF8FU5oEit3dEG4byn5P-dQ_FOrjdWrBwO9YXNqVauaKIQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/60 via-transparent to-transparent"></div>
+<!-- Bottom Float Tag -->
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-lg bg-surface/90 backdrop-blur-md shadow-md flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[20px]">local_fire_department</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface leading-tight">Batch #04 Just Out</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Warm Saltbread &amp; Pâtisserie</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm uppercase">Limited</span>
+</div>
+</div>
+<!-- Decorative Floating Card -->
+<div class="hidden sm:flex absolute -bottom-6 -left-8 p-4 rounded-xl bg-surface-container-lowest shadow-xl items-center gap-3.5 z-20 max-w-xs">
+<div class="w-12 h-12 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up macro shot of molten pistachio cream oozing from a rich dark chocolate chewy cookie texture with sea salt crystals in warm tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtcNL3kzpikkKqi4ayKVsFsBgoxtnBHklG1FrEtcvWcy057od_e3EmLpy3tqu2dUsjpc5gcGTKXXsmS3SFTz2lg2XHvMFJqbiM7hzeS15NP0cxF5GT4I4GbfPsZKTOhMqatvfctDwem4ynxjttAgA1KfT2tDaxSab1CZT1ZW8Igb7LSYtMgr0qzge7S0gU5uhI9z1cJN5xAnQeIXe_2VX9yS_EpHXTheoTePjgxDHk5Kjo6DIWWO538w"/>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Trending Favorite</span>
+<p class="font-headline-sm text-headline-sm text-on-surface text-sm font-semibold leading-tight">Dubai Chewy Cookie</p>
+<p class="font-label-md text-label-md text-primary mt-0.5">Rp28.000</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FEATURED PRODUCTS SECTION -->
+<section class="w-full py-24 bg-surface relative">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-xl">
+<div class="inline-flex items-center gap-2 font-label-sm text-label-sm uppercase tracking-widest text-secondary mb-2">
+<span class="material-symbols-outlined text-[16px]">cookie</span>
+<span>Bakeshop Highlights</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold">
+            Crafted for Daily Indulgence
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+            Each recipe marries authentic French viennoiserie techniques with inventive local palates. Baked freshly every morning.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-primary hover:text-primary-container group transition-colors" data-path="menu" href="#">
+<span>View Full Menu</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 4 Product Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Product 1: Dubai Chewy Cookie -->
+<div class="group flex flex-col rounded-xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Thick and chewy dark chocolate cookie stuffed with velvety emerald green pistachio paste and crispy shredded kadaif pastry topping, soft morning studio lighting on warm ceramic plate, artisanal bakery aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHxUCKOpwtWBCK6qVvZSrMem4If7MVVioCsJ6TKrR3DMJ_uQFBjuXc8utiYbB0i4GWKzwXYErecOuuzZBj0qLbabVUMDUVo2fbAvhGwoB8Oq4Idlg07p6GgpSwvJ_2JqSGeOFDGAXxXnKtBZhbQDoXMj6O3wzcdp1LzEZjypE_fWehzYN8lb5YZtP7CUhu3Sv-9YxPOPOUATtXpwezBAjJ67RlVJ7eWtL4H29G2Ni7Y9-mQ_eXGkE4vQ"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-secondary-container/90 backdrop-blur-sm text-on-secondary-container font-label-sm text-label-sm">
+              Best Seller
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Dubai Chewy Cookie
+                </h3>
+<span class="font-label-lg text-label-lg text-primary shrink-0">Rp28.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Chewy cookie dengan cokelat dan isian pistachio yang kaya rasa.
+              </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Rich &amp; Nutty</span>
+<button aria-label="Add to cart" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 2: Saltbread -->
+<div class="group flex flex-col rounded-xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Japanese style artisanal saltbread with golden crispy buttery crust and flaky Maldon sea salt crystals on top, soft airy center crumb, styled on linen cloth in soft diffused sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbocfDC6tWJTB8__Bxa6qGAc8dJudWXXsnSJhfvPwIz5C7XSrIQEigD105gwcQRb7iJj2e5kAl74aKVnisff7jYqb3EQh32iS_cV5fWi1JX5w_pj14NNeeN6ImD8j12sbExusGMJ44UumMwijOTG-1gyjmCVbm5Li83CDpFu2dCcJxpKpGfxt59DD-5qrqIE1BdlGftpZ2nywvOL7unXNdBSKL6Nxs4P1a_wE-cSY-LXfOR84hIJ21LA"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-surface-container-highest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm">
+              Morning Staple
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Saltbread
+                </h3>
+<span class="font-label-lg text-label-lg text-primary shrink-0">Rp18.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Roti lembut dengan aroma butter dan sentuhan rasa gurih.
+              </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Savory &amp; Fluffy</span>
+<button aria-label="Add to cart" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 3: Croissant -->
+<div class="group flex flex-col rounded-xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Perfect golden layered French butter croissant with visible honeycomb lamination structure, delicate flakiness, placed on an artisanal wooden paddle in warm pastry kitchen." src="https://lh3.googleusercontent.com/aida-public/AB6AXuATfiC75wTpq1JuimsKlOD3Zjic63AQjvsyDHr-fhWq09TLMKek_3hCmEwxfiNtZvKrq7s0_4UdYTrwapUPUMHtSGIEWusq7MCcHBIaVaHuRQjULh8fCO2wuGL_azrvrTR8F6gUfyiR7f47lCbTlvr7F7Mo7QJCj1TxFeYqFzHDOxzHhEIArn0kBLDRGV_6sdaOoiYaOemyK8SZLX0mEOKTtwei6MlF2Z0eDmaaezhAcrnFKElcCfOqMw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-primary-fixed/90 backdrop-blur-sm text-on-primary-fixed font-label-sm text-label-sm">
+              Artisan Batch
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Croissant
+                </h3>
+<span class="font-label-lg text-label-lg text-primary shrink-0">Rp22.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Pastry berlapis dengan tekstur renyah dan rasa buttery.
+              </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Crisp &amp; Airy</span>
+<button aria-label="Add to cart" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Product 4: Tiramisu Cake -->
+<div class="group flex flex-col rounded-xl bg-surface-container-lowest overflow-hidden shadow-md hover:shadow-xl transition-all duration-300">
+<div class="relative w-full aspect-[4/3] bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Elegant slice of traditional Italian tiramisu cake with neat layers of espresso-soaked ladyfingers, rich mascarpone sabayon, and fine dusting of Valrhona cocoa powder on rustic ceramic plate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQsu7FPL7m-X9JZizdhLU1nv2LqjtuQkyaryxPEHsJKgBHYmXen5s3wJqIJOi8-8MEWYhiPhbLHDmtA_ioR9uqoBU8vTlPuFsc5SwurBDtQeuYcWKN22cAhjf4D9tMeak5BDBqLzsqzjlSP7KhP8kPGy38_xNsA_KXIH9SxhCSo2Zg3Excp2aPFRl77WtqFMP0Ns1dX6dk2xXDZtM-bW0vyBj-gmzjiBSqSckvqkU2jTkv8qzl5EpSDw"/>
+<span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed font-label-sm text-label-sm">
+              Dessert Special
+            </span>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between">
+<div>
+<div class="flex items-baseline justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold group-hover:text-primary transition-colors">
+                  Tiramisu Cake
+                </h3>
+<span class="font-label-lg text-label-lg text-primary shrink-0">Rp45.000<span class="text-xs font-normal text-outline"> / slice</span></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Dessert dengan perpaduan kopi, cream, dan cocoa.
+              </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline">Velvety &amp; Bold</span>
+<button aria-label="Add to cart" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Button Centered -->
+<div class="mt-14 flex justify-center">
+<a class="h-12 px-space-xl rounded-lg bg-primary-container text-on-primary font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-md hover:bg-primary transition-all duration-200" data-path="menu" href="#">
+<span>View Full Menu</span>
+<span class="material-symbols-outlined text-[18px]">restaurant_menu</span>
+</a>
+</div>
+</div>
+</section>
+<!-- WHY CHOOSE BUTTERBELL SECTION -->
+<section class="w-full py-24 bg-surface-container-low relative">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block mb-2">The Butterbell Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold">
+          Why Choose Butterbell
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          We honor time, temperature, and true culinary craftsmanship so that every bite feels like a small everyday celebration.
+        </p>
+</div>
+<!-- 4 Feature Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Feature 1: Freshly Baked -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col items-start relative overflow-hidden group">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">oven_gen</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-3">
+            Freshly Baked
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Every loaf and pastry emerges fresh from our stone deck ovens each morning before sunrise. Never yesterday's batch.
+          </p>
+<div class="mt-6 flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span>Daily at 6:30 AM</span>
+</div>
+</div>
+<!-- Feature 2: Quality Ingredients -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col items-start relative overflow-hidden group">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">eco</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-3">
+            Quality Ingredients
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Cultured French butter, stone-milled heirloom grains, pure Madagascar vanilla, and single-origin chocolates.
+          </p>
+<div class="mt-6 flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span>Pure &amp; Natural</span>
+</div>
+</div>
+<!-- Feature 3: Made with Care -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col items-start relative overflow-hidden group">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">favorite</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-3">
+            Made with Care
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Slow 36-hour sourdough fermentation and hand-laminated puff pastry that honors the unhurried craft of fine baking.
+          </p>
+<div class="mt-6 flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span>Slow Handcrafted</span>
+</div>
+</div>
+<!-- Feature 4: Perfect for Every Moment -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col items-start relative overflow-hidden group">
+<div class="w-14 h-14 rounded-xl bg-surface-container flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">celebration</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-3">
+            Perfect for Every Moment
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            From calm morning solitary coffees to joyful family weekend brunches and curated gift boxes for your loved ones.
+          </p>
+<div class="mt-6 flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase tracking-wider">
+<span>Daily Celebrations</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BRAND HIGHLIGHT SECTION: Editorial Asymmetric Feature -->
+<section class="w-full py-24 bg-surface relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="p-8 md:p-14 lg:p-16 rounded-xl bg-primary text-on-primary relative shadow-xl overflow-hidden">
+<!-- Subtle background pattern decorative SVG -->
+<svg class="absolute -right-24 -bottom-24 w-96 h-96 opacity-10 text-on-primary pointer-events-none" fill="currentColor" viewbox="0 0 200 200">
+<circle cx="100" cy="100" r="80"></circle>
+<path d="M100 20 A80 80 0 0 1 180 100 L100 100 Z"></path>
+</svg>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+<div class="lg:col-span-8 flex flex-col items-start">
+<div class="w-12 h-12 rounded-full bg-on-primary/10 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[24px] text-primary-fixed">format_quote</span>
+</div>
+<blockquote class="font-headline-lg text-headline-lg font-medium leading-tight mb-6 text-on-primary">
+              “A little sweetness can make a big difference.”
+            </blockquote>
+<p class="font-body-lg text-body-lg text-on-primary/90 max-w-2xl leading-relaxed mb-8">
+              At Butterbell, we believe true luxury isn't extravagance—it's the comfort of a warm loaf broken by hand, the gentle crackle of butter lamination, and sharing unhurried conversations across a flour-dusted table. Our master bakers and pâtissiers pour passion into every knead, roll, and bake.
+            </p>
+<a class="h-12 px-space-lg rounded-lg bg-surface text-primary font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-md hover:bg-surface-container transition-all duration-200" data-path="our-team" href="#">
+<span class="material-symbols-outlined text-[18px]">groups</span>
+<span>Meet Our Team</span>
+</a>
+</div>
+<div class="lg:col-span-4 flex justify-center lg:justify-end">
+<div class="w-full max-w-sm rounded-xl overflow-hidden shadow-2xl relative aspect-[4/5] bg-inverse-surface">
+<img class="w-full h-full object-cover" data-alt="Bakery chef dusting flour lightly over sourdough bread dough on rustic butcher block table, warm golden morning kitchen atmosphere, apron with flour smudges, candid artisanal dedication." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnvO5cJm4lxp-CiBIztDPnUdgs0mbu9Sf3wvIYZTi7ZysvPo3bSw4_vBsGEUqzf-D8IRx8Bv5yypdHjE2erMsq1R_IAruE1mqMvF3BWQdk9J5VAj88M3j7VFN21jntdw80wt8otKaITFVFirmvpO4vyCshhr4FgO4qfg7TOoW2CC3m9y-ffOtBiptaL6cV2uuD23NBwOfXgOgYrR0jjEQg4pWN-VatzPrMtjVRwLUya7HexubZ_ahKYA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 text-center">
+<span class="font-headline-sm text-headline-sm text-on-primary block text-sm">Chef Élise &amp; Team</span>
+<span class="font-label-sm text-label-sm text-on-primary-container uppercase tracking-widest text-xs">Pâtisserie &amp; Hearth Breads</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CUSTOMER REVIEWS PREVIEW -->
+<section class="w-full py-24 bg-surface-container-low relative">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block mb-2">Guest Words</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-semibold">
+            Loved by Our Community
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-xl">
+            Hear from our neighbors, morning regulars, and dessert lovers who share their special moments with us.
+          </p>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-primary hover:text-primary-container group transition-colors" data-path="reviews" href="#">
+<span>Read All Reviews</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 3 Customer Review Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review Card 1 -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<!-- 5-Star Rating -->
+<div aria-label="5 out of 5 stars" class="flex items-center gap-1 text-primary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-6 leading-relaxed italic">
+              “The Dubai Chewy Cookie is sensational! The richness of the pistachio center balanced with dark chocolate and sea salt is nothing short of pastry perfection. Now part of my weekly weekend ritual.”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-none">
+<div class="w-11 h-11 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container font-bold text-sm shrink-0">
+              SM
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Sarah Maharani</p>
+<p class="font-body-sm text-body-sm text-outline text-xs">Verified Guest • Jakarta</p>
+</div>
+</div>
+</div>
+<!-- Review Card 2 -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<!-- 5-Star Rating -->
+<div aria-label="5 out of 5 stars" class="flex items-center gap-1 text-primary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-6 leading-relaxed italic">
+              “I come in every Wednesday morning right when the doors open just for the warm Saltbread. Crisp bottom, airy butter pocket, and pure comfort. It has completely ruined supermarket bread for me!”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-none">
+<div class="w-11 h-11 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed-variant font-bold text-sm shrink-0">
+              DA
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">David Adiputra</p>
+<p class="font-body-sm text-body-sm text-outline text-xs">Morning Regular • Heritage District</p>
+</div>
+</div>
+</div>
+<!-- Review Card 3 -->
+<div class="p-8 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<!-- 5-Star Rating -->
+<div aria-label="5 out of 5 stars" class="flex items-center gap-1 text-primary mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-6 leading-relaxed italic">
+              “We ordered the Tiramisu Cake for an anniversary dinner and every single guest was blown away. Light, authentically saturated with rich coffee notes, and not overly sweet. Butterbell is truly an artisanal gem.”
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-none">
+<div class="w-11 h-11 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed font-bold text-sm shrink-0">
+              KL
+            </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold leading-tight">Karina Lestari</p>
+<p class="font-body-sm text-body-sm text-outline text-xs">Celebration Host</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Action Button Centered -->
+<div class="mt-14 flex justify-center">
+<a class="h-12 px-space-xl rounded-lg bg-surface-container-highest text-on-surface font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-sm hover:bg-surface-container transition-all duration-200" data-path="reviews" href="#">
+<span>Read All Reviews</span>
+<span class="material-symbols-outlined text-[18px]">rate_review</span>
+</a>
+</div>
+</div>
+</section>
+<!-- NEWSLETTER / VISIT INVITE STRIP -->
+<section class="w-full py-16 bg-surface-container">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+<div class="flex items-center gap-5">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shrink-0 shadow-md">
+<span class="material-symbols-outlined text-[24px]">storefront</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Drop By for Morning Coffee &amp; Breads</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">412 Brioche Lane, Heritage District • Wed–Sun from 6:30 AM</p>
+</div>
+</div>
+<div class="flex items-center gap-4 w-full sm:w-auto">
+<a class="h-12 px-space-lg w-full sm:w-auto rounded-lg bg-primary-container text-on-primary font-label-md text-label-md inline-flex items-center justify-center gap-2 shadow-sm hover:bg-primary transition-colors" data-path="contact" href="#">
+<span>Find Our Bakery</span>
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_8px_rgba(62,48,40,0.04)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12"><div class="flex flex-col gap-4"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary"><span class="material-symbols-outlined text-[20px]">bakery_dining</span></div><span class="font-headline-md text-headline-md text-primary">BUTTERBELL</span></div><p class="font-body-sm text-body-sm text-on-surface-variant pr-4">Purveyors of slow-fermented hearth breads, flaky viennoiserie, and handcrafted morning confections. Baked fresh before dawn with heirloom grain and cultured butter.</p><div class="flex items-center gap-3 mt-2"><a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a aria-label="Location" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">pin_drop</span></a><a aria-label="Newsletter" class="w-9 h-9 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:bg-primary hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">mail</span></a></div></div><div class="flex flex-col gap-4"><h4 class="font-headline-sm text-headline-sm text-on-surface">Quick Links</h4><ul class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="home" href="#">Home</a></li><li><a class="hover:text-primary transition-colors" data-path="about-us" href="#">Our Story &amp; Philosophy</a></li><li><a class="hover:text-primary transition-colors" data-path="menu" href="#">Seasonal Pastry &amp; Bread Menu</a></li><li><a class="hover:text-primary transition-colors" data-path="our-team" href="#">Bakers &amp; Pâtissiers</a></li><li><a class="hover:text-primary transition-colors" data-path="reviews" href="#">Guest Reviews</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Visit &amp; Contact Us</a></li></ul></div><div class="flex flex-col gap-4"><h4 class="font-headline-sm text-headline-sm text-on-surface">Bakeshop Hours</h4><div class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant"><div><span class="font-label-md text-label-md text-on-surface block">Wednesday – Friday</span><span>6:30 AM – 3:00 PM</span></div><div><span class="font-label-md text-label-md text-on-surface block">Saturday &amp; Sunday</span><span>7:00 AM – 4:00 PM</span></div><div><span class="font-label-md text-label-md text-on-surface block">Monday &amp; Tuesday</span><span class="text-outline">Closed for fermentation &amp; rest</span></div></div></div><div class="flex flex-col gap-4"><h4 class="font-headline-sm text-headline-sm text-on-surface">Get in Touch</h4><div class="flex flex-col gap-3 font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-start gap-2"><span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">location_on</span><span>412 Brioche Lane, Heritage District<br/>Portland, OR 97201</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">call</span><span>(503) 841-9230</span></div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px] shrink-0">mail</span><span>bonjour@butterbellbakery.com</span></div></div></div></div><div class="pt-8 mt-4 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><p>© 2025 Butterbell Bakery Co. All artisanal rights reserved.</p><div class="flex items-center gap-6"><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">Terms of Service</a><a class="hover:text-primary transition-colors" href="#">Accessibility</a></div></div></div></footer></body></html>
